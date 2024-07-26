@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homeworks</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<section class="homework">
+
+<div class="container-form">
+    <div class="logo">
+        <img src="images/homeWorks.png" alt="logo">
+    </div>
+    <div class="info">
+        <div class="info-title" id="info-title">
+            Get your free account
+        </div>
+        <div class="info-description" id="info-description">
+            Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+        </div>
+        <form id="registration-form">
+        <div class="actions" id="actions-form">
+            <label id="text-full-name">
+                <p>Full Name</p>
+                <input type="text" class="action-input" id="full-name-input" placeholder="Antony Swarowski" >
+                <span id="full-name-error" class="error-message">Заполните поле Full name</span>
+            </label>
+            <label id="username">
+                <p> Your Username</p>
+                <input type="text" class="action-input" id="username-input" >
+                <span id="username-error" class="error-message">Заполните поле Your Username</span>
+            </label>
+
+            <label id="text-email">
+                <p >E-mail</p>
+                <input type="text" class="action-input" id="mail-input">
+                <span id="email-error" class="error-message">Заполните поле E-mail</span>
+            </label>
+            <label id="password">
+                <p>Password</p>
+                <input type="password" class="action-input" id="password-input">
+                <span id="password-error" class="error-message">Заполните поле password</span>
+            </label>
+            <label id="repeat-password-input-text">
+                <p>Repeat Password</p>
+                <input type="password" class="action-input" id="repeat-password-input">
+                <span id="repeat-password-error" class="error-message">Заполните поле Repeat password</span>
+            </label>
+
+        </div>
+
+        <div class="agree" id="agree-condition">
+            <label>
+            <input type="checkbox" class="agreement" id="agree" name="agreement" value="tick" checked>
+               <span>Agree to our Terms of Service and Privacy Statement</span>
+            </label>
+            <span id="agree-error" class="error-message">Поставь галочку</span>
+        </div>
+        <div class="button">
+            <button class="btn" id="sign-up">Sign Up</button>
+        </div>
+        </form>
+        <div class="link" id="link">
+            <a href="#">Already have an account?</a>
+        </div>
+        </div>
+
+
+</div>
+
+<div class="container-image">
+
+    <div class="image">
+        <div class="image-racket">
+            <img src="images/racket.png" alt="racket">
+        </div>
+    </div>
+</div>
+<div class="popup-container" id="popupContainer">
+<div class="popup">
+    <span>На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</span>
+    <div class="button-container">
+        <button class="popup-btn" id="ok">Ok</button>
+    </div>
+    </div>
+</div>
+
+</section>
+
+<script src="jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
